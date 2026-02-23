@@ -1,0 +1,23 @@
+# Environment variables
+.env
+*.env
+
+# Node.js
+**/node_modules
+**/dist
+**/build
+
+# Python
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/venv
+**/env
+
+# Docker
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
