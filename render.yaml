@@ -10,14 +10,3 @@ services:
         sync: false
       - key: SUPABASE_KEY
         sync: false
-
-  - type: web
-    name: frontend
-    env: docker
-    dockerContext: frontend
-    dockerfilePath: Dockerfile
-    plan: free
-    envVars:
-      - key: VITE_API_URL
-        value: https://backend.onrender.com
-    # Note: Replace 'backend.onrender.com' with your actual backend URL after the first deploy
